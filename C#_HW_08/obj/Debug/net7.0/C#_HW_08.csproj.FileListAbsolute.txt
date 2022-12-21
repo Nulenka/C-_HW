@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\bin\Debug\net7.0\C#_HW_08.exe
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\bin\Debug\net7.0\C#_HW_08.deps.json
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\bin\Debug\net7.0\C#_HW_08.runtimeconfig.json
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\bin\Debug\net7.0\C#_HW_08.dll
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\bin\Debug\net7.0\C#_HW_08.pdb
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\obj\Debug\net7.0\C#_HW_08.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\obj\Debug\net7.0\C#_HW_08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\obj\Debug\net7.0\C#_HW_08.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\obj\Debug\net7.0\C#_HW_08.AssemblyInfo.cs
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\obj\Debug\net7.0\C#_HW_08.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\obj\Debug\net7.0\C#_HW_08.dll
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\obj\Debug\net7.0\refint\C#_HW_08.dll
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\obj\Debug\net7.0\C#_HW_08.pdb
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\obj\Debug\net7.0\C#_HW_08.genruntimeconfig.cache
+C:\Users\User\Desktop\B.N.V\GeekBrain\C#\Repo\ExamplesAgain\C#_HW\C#_HW_08\obj\Debug\net7.0\ref\C#_HW_08.dll
