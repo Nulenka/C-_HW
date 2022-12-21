@@ -49,7 +49,6 @@ void WriteMatrix3(int[,] array3)
         }
         Console.WriteLine();
     }
-    Console.WriteLine();
 }
 
 int ReadInt3(string message)
@@ -57,7 +56,7 @@ int ReadInt3(string message)
     Console.Write(message);
     return Convert.ToInt32(Console.ReadLine());
 }
-
+Console.WriteLine(" ");
 
 Console.WriteLine("Задача 56: Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов. Например, задан массив: 1 4 7 2, 5 9 2 3, 8 4 2 4, 5 2 6 7. Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов: 1 строка.");
 
@@ -188,4 +187,90 @@ int ReadInt5(string message)
     Console.Write(message);
     return Convert.ToInt32(Console.ReadLine());
 }
+Console.WriteLine(" ");
+
+
+Console.WriteLine("Задача 60. Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента. Массив размером 2 x 2 x 2: 66(0,0,0) 25(0,1,0), 34(1,0,0) 41(1,1,0), 27(0,0,1) 90(0,1,1), 26(1,0,1) 55(1,1,1)");
+
+int[,,] Matrix3D = new int[2, 2, 2];
+FillMatrix3d(Matrix3D);
+WriteIndex(Matrix3D);
+
+void WriteIndex(int[,,] Matrix3D)
+{
+    for (int i6 = 0; i6 < Matrix3D.GetLength(0); i6++)
+    {
+        for (int j6 = 0; j6 < Matrix3D.GetLength(1); j6++)
+        {
+            Console.WriteLine();
+            for (int w = 0; w < Matrix3D.GetLength(2); w++)
+            {
+                Console.Write($"{Matrix3D[i6, j6, w]}({i6},{j6},{w}) ");
+            }
+        }
+    }
+    Console.WriteLine(" ");
+}
+
+void FillMatrix3d(int[,,] Matrix3D)
+{
+    int count6 = 10;
+    for (int i6 = 0; i6 < Matrix3D.GetLength(0); i6++)
+    {
+        for (int j6 = 0; j6 < Matrix3D.GetLength(1); j6++)
+        {
+            for (int w = 0; w < Matrix3D.GetLength(2); w++)
+            {
+                Matrix3D[w, i6, j6] += count6;
+                count6 += 3;
+            }
+        }
+    }
+}
+Console.WriteLine(" ");
+
+Console.WriteLine("Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4. Например, на выходе получается вот такой массив: 01 02 03 04, 12 13 14 05, 11 16 15 06, 10 09 08 07");
+
+int sideLong = 4; //int n = 4;
+int[,] sqrArray = new int[sideLong, sideLong]; //int[,] sqareMatrix = new int[n, n];
+
+int temp7 = 1;
+int i7 = 0;
+int j7 = 0;
+
+while (temp7 <= sqrArray.GetLength(0) * sqrArray.GetLength(1))
+{
+  sqrArray[i7, j7] = temp7;
+  temp7++;
+  if (i7 <= j7 + 1 && i7 + j7 < sqrArray.GetLength(1) - 1)
+    j7++;
+  else if (i7 < j7 && i7 + j7 >= sqrArray.GetLength(0) - 1)
+    i7++;
+  else if (i7 >= j7 && i7 + j7 > sqrArray.GetLength(1) - 1)
+    j7--;
+  else
+    i7--;
+}
+
+WriteArray7(sqrArray);
+
+void WriteArray7(int[,] array7)
+{
+    for (int i7 = 0; i7 < array7.GetLength(0); i7++)
+    {
+        for (int j7 = 0; j7 < array7.GetLength(1); j7++)
+        {
+            if (array7[i7, j7] / 10 <= 0)
+            {
+                Console.Write($" {array7[i7,j7]} ");
+                Console.Write(" ");
+            }
+            else Console.Write($"{array7[i7,j7]} ");
+        }
+        Console.WriteLine();
+    }
+}
+
+Console.WriteLine(" ");
+Console.WriteLine("Thanks for checking!");
 Console.WriteLine(" ");
